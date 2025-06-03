@@ -122,11 +122,6 @@
         </tbody>
       </table>
     </div>
-
-    <!-- Map -->
-    <div class="rounded-xl overflow-hidden shadow-lg border border-gray-200">
-      <StationMap :stations="stations" :center="[0, 0]" />
-    </div>
   </div>
 </template>
 
